@@ -68,7 +68,7 @@ public partial class App : Application
         var currentRegion = GetCurrentRegion();
 
         // List of restricted regions
-        var restrictedRegions = new[] { "RU", "CN" };
+        var restrictedRegions = new[] { "" };
 
         if (restrictedRegions.Contains(currentRegion))
         {
